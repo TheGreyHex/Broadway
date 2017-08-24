@@ -8,27 +8,34 @@ body {
   color: white;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: bold;
-}
-
 h1 {
   font-size: 70px;
-  color: white;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 32px;
+  font-weight: bold;
   }
 
-  h3 {
+h3 {
     font-size: 23px;
+    font-weight: bold;
   }
 
 .heading,
 .newyork {
     background: url("images/the-flatiron-building.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
+
+  .footer {
+    background-color: dimgray;
+    text-align: left;
+  }
+
+.copy {
+  font-size: 11px;
+  color: white;
+}
